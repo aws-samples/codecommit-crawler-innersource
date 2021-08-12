@@ -1,0 +1,24 @@
+{
+    "title":"Gold",
+    "motivation":"Gold is a chemical element with the symbol Au and atomic number 79, making it one of the higher atomic number elements that occur naturally. In a pure form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
+    "contributions":[
+        "Bugfixes",
+        "Features",
+        "Infrastructure",
+        "Documentation"
+    ],
+    "skills":[
+        "Node.js",
+        "Java",
+        "C++"
+    ],
+    "logo":"https://upload.wikimedia.org/wikipedia/commons/1/10/Au_gold_symbol.svg",
+    "docs":"https://acmecorp.com/projects/au/docs",
+    "language":"Node.js",
+    "license":"Apache",
+	"topics": [
+        "Nobel Metals",
+        "Mineral",
+        "Java"
+    ]
+}

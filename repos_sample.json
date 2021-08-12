@@ -1,0 +1,75 @@
+[
+    {
+        "id": "99ab6129-998e-4a81-bede-08e5ad3f1f88",
+        "name": "Gold",
+        "full_name": "Gold",
+        "html_url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Gold",
+        "description": "Gold is a chemical element with the symbol Au and atomic number 79, making it one of the higher atomic number elements that occur naturally. In a pure form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
+        "created_at": "2021-06-26 14:24:34.508000+05:30",
+        "updated_at": "2021-06-26 14:28:11.694000+05:30",
+        "pushed_at": "2021-06-26 14:28:11.694000+05:30",
+        "default_branch": "main",
+        "forks_count": 1,
+        "_InnerSourceMetadata": {
+            "title": "Gold",
+            "motivation": "Gold is a chemical element with the symbol Au and atomic number 79, making it one of the higher atomic number elements that occur naturally. In a pure form, it is a bright, slightly reddish yellow, dense, soft, malleable, and ductile metal. Chemically, gold is a transition metal and a group 11 element.",
+            "contributions": [
+                "Bugfixes",
+                "Features",
+                "Infrastructure",
+                "Documentation"
+            ],
+            "skills": [
+                "Node.js",
+                "Java",
+                "C++"
+            ],
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Au_gold_symbol.svg",
+            "docs": "https://acmecorp.com/projects/au/docs",
+            "language": "Node.js",
+            "license": "Apache",
+            "topics": [
+                "Nobel Metals",
+                "Mineral",
+                "Java"
+            ],
+            "score": 1210
+        },
+        "language": "Node.js",
+        "license": "Apache",
+        "topics": [
+            "Nobel Metals",
+            "Mineral",
+            "Java"
+        ],
+        "stargazers_count": "",
+        "watchers_count": "",
+        "open_issues_count": "",
+        "score": 1210,
+        "owner": {
+            "login": "Noble",
+            "avatar_url": "./images/demo/Sol.png"
+        }
+    },
+    {
+        "id": "1ccdd70e-2787-4942-9dc3-94010c767807",
+        "name": "RepoWithoutInnerSourceJson",
+        "full_name": "RepoWithoutInnerSourceJson",
+        "html_url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/RepoWithoutInnerSourceJson",
+        "description": "sdsdsd",
+        "created_at": "2021-06-26 14:29:18.092000+05:30",
+        "updated_at": "2021-06-26 14:29:46.306000+05:30",
+        "pushed_at": "2021-06-26 14:29:46.306000+05:30",
+        "default_branch": "main",
+        "forks_count": 1,
+        "_InnerSourceMetadata": {},
+        "stargazers_count": "",
+        "watchers_count": "",
+        "open_issues_count": "",
+        "score": 1060,
+        "owner": {
+            "login": "Noble",
+            "avatar_url": "./images/demo/Sol.png"
+        }
+    }
+]
