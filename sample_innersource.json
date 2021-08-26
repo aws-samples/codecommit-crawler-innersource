@@ -16,7 +16,7 @@
     "docs":"https://acmecorp.com/projects/au/docs",
     "language":"Node.js",
     "license":"Apache",
-	"topics": [
+    "topics":[
         "Nobel Metals",
         "Mineral",
         "Java"
