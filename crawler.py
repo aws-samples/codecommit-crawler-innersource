@@ -19,8 +19,10 @@ def calculateScore(repoData):
     iScore += repoData["forks_count"] * 5;
     
     #Caculate days elapsed since the repo was created and last updated
-    repoUpdateDate = repoData['updated_at']
-    repoCreateDate = repoData['created_at']
+    repoUpdateDate = datetime.strptime(repoData['updated_at'],"%Y-%m-%dT%H:%M:%SZ")
+    repoUpdateDate = repoUpdateDate.replace(tzinfo=timezone.utc)
+    repoCreateDate = datetime.strptime(repoData['created_at'],"%Y-%m-%dT%H:%M:%SZ")
+    repoCreateDate = repoCreateDate.replace(tzinfo=timezone.utc)
     currentDate = datetime.now(timezone.utc)
     iDaysSinceLastUpdate = currentDate - repoUpdateDate;
     iDaysSinceCreation =  currentDate - repoCreateDate;
