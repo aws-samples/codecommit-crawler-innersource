@@ -43,7 +43,8 @@ def calculateScore(repoData):
     iScore += iBoost;
     
     # give projects with a meaningful description a static boost of 50
-    iScore += 50 if len(repoData['description']) > 200 else 0;
+    if('description' in repoData):
+        iScore += 50 if len(repoData['description']) > 200 else 0;
     
     # give projects with contribution guidelines (CONTRIBUTING.md) file a static boost of 100
     if("_InnerSourceMetadata" in repoData and "contributions" in repoData["_InnerSourceMetadata"]):
